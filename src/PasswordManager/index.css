@@ -1,0 +1,224 @@
+.password-manager {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container {
+  margin: 10px;
+  padding: 15px;
+}
+.logo {
+  height: 60px;
+  margin-bottom: 15px;
+}
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5763a5;
+  border-radius: 9px;
+  padding: 30px;
+}
+.form-container {
+  background-color: #454f84;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 20px;
+}
+.form-title {
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-container {
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-text {
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.icon-container {
+  border-right: 1px solid #c3caea;
+}
+.input-icon {
+  width: 18px;
+  margin: 10px;
+}
+.form-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+  outline: none;
+}
+.form-image {
+  margin: 10px;
+}
+.second-container {
+  background-color: #5763a5;
+  border-radius: 9px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.mini-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #94a3b8;
+  padding: 10px 0px;
+}
+.password-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.count {
+  padding: 0px 10px;
+  border: 1px solid #94a3b8;
+  margin: 10px;
+  border-radius: 9px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.search-icon {
+  width: 20px;
+  margin: 3px;
+  align-self: center;
+}
+.search-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  border: none;
+  outline: none;
+  margin: 0px;
+}
+.check-container {
+  align-self: flex-end;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.check-box {
+  width: 20px;
+  height: 18px;
+  margin: 10px 10px;
+}
+.label-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+.None-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  margin: 20px;
+}
+.no-image {
+  width: 40%;
+}
+.none-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
+.passwords-container {
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 15px 0px;
+  flex-grow: 1;
+}
+@media screen and (max-width: 576px), (min-width: 576px) {
+  .first-container {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 370px;
+  }
+  .input-text {
+    width: 200px;
+  }
+  .form-image {
+    width: 80%;
+  }
+  .search-text {
+    width: 120px;
+  }
+  .password-title {
+    height: 20px;
+    font-size: 10px;
+  }
+  .count {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .first-container {
+    flex-direction: row;
+  }
+  .container {
+    max-width: 1000px;
+  }
+  .input-text {
+    width: 300px;
+  }
+  .form-image {
+    width: 40%;
+  }
+  .search-text {
+    height: 25px;
+    width: 200px;
+  }
+  .password-title {
+    font-size: 20px;
+  }
+  .count {
+    font-size: 15px;
+  }
+}

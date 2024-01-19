@@ -1,0 +1,60 @@
+.brown {
+  background-color: #f59e0b;
+}
+.green {
+  background-color: #10b981;
+}
+.maroon {
+  background-color: #f97316;
+}
+.blue {
+  background-color: #14b8a6;
+}
+.red {
+  background-color: #b91c1c;
+}
+.password-item {
+  list-style: none;
+  font-family: 'Roboto';
+  margin: 10px 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #94a3b8;
+  border-radius: 7px;
+  padding: 10px 5px;
+  gap: 10px;
+  width: 250px;
+}
+
+.initial-text {
+  padding: 15px 20px;
+  border-radius: 55%;
+  color: #ffffff;
+  font-size: 20px;
+}
+.details-container {
+  padding: 5px;
+}
+.website-name {
+  font-size: 15px;
+  color: #ffffff;
+}
+.user-name {
+  font-size: 13px;
+  color: #ffffff;
+}
+.star-icon {
+  height: 10px;
+}
+.delete-button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.delete-icon {
+  width: 25px;
+}
